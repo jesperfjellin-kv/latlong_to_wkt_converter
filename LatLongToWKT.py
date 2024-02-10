@@ -6,7 +6,7 @@ import pandas as pd
 
 
 def degrees2meters(lon, lat):
-    '''Math function for conversion of latitude longitude.'''
+    '''Math function for conversion of latitude longitude to WKT format.'''
     x = lon * 20037508.34 / 180
     y = math.log(math.tan((90 + lat) * math.pi / 360)) / (math.pi / 180)
     y = y * 20037508.34 / 180
