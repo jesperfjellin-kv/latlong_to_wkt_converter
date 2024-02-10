@@ -1,6 +1,5 @@
 '''Script converts lat long coordinates from either user input or from a .csv file into WKT coordinates
-usable with a postgis database. .csv file must be in the same directory as the python script.
-Adding text here to test commit.'''
+usable with a postgis database. .csv file must be in the same directory as the python script.'''
 
 import math
 import pandas as pd
