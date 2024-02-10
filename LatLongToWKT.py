@@ -49,4 +49,4 @@ if choice.lower() == 'single':
 elif choice.lower() == 'file':
     process_file()
 else:
-    print("Invalid input. Please enter 'single' or 'file'.")
+    print("Invalid input. Please enter 'single' or 'file'!")
